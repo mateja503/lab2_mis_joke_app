@@ -31,10 +31,9 @@ class TypeCard extends StatelessWidget {
             child: Center(
               child: Text(
                 types[index],
-                style:  TextStyle(
+                style: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.bold,
-              
                 ),
               ),
             ),
@@ -44,4 +43,3 @@ class TypeCard extends StatelessWidget {
     );
   }
 }
-
